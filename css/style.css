@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Hahmlet");
+
+/** MOBILE VIEW */
+
+@media(max-width: 991px) {
+    .column-1 {
+        display: contents;
+        margin-bottom: 20px;
+    }
+    .column-2 {
+        display: contents;
+    }
+    iframe {
+        margin-right: 2.1rem;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    font-family: "Hahmlet", sans-serif;
+    padding: 2rem;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: cornflowerblue;
+}
+
+.title {
+    font-size: 3em;
+    letter-spacing: -2px;
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+}
+
+.img_border {
+    display: inline-block;
+    justify-content: end;
+    border-style: solid;
+    border-width: 5px;
+    border-color: whitesmoke;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
+.github {
+    margin-right: 1rem;
+}
+
+.linkedin {
+    margin-right: 1rem;
+}
+
+.github:hover {
+    color: blue;
+}
+
+.linkedin:hover {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    margin-top: 0.9rem;
+    padding: 8px;
+    margin-bottom: 0.9rem;
+}
+
+
+/* .personal,
+.about,
+.tools,
+.technical,
+.link,
+.education {
+    color: wheat;
+} */
+
+#box {
+    background-color: cornflowerblue;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+    border: 1px solid black;
+}
